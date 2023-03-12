@@ -20,7 +20,7 @@ class ViewTodo extends ConsumerWidget {
                 onPressed: () => Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => MyHomePage()),
                     ),
-                icon: const Icon(Icons.add_to_photos)),
+                icon: const Icon(Icons.add)),
             IconButton(
                 onPressed: () => Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => ViewDoc()),
