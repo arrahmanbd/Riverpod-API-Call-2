@@ -41,6 +41,4 @@ class ApiServices {
   }
 }
 
-final todoProvider = Provider<ApiServices>((ref) => ApiServices());
-final userProvider = Provider<ApiServices>((ref) => ApiServices());
-final docProvider = Provider<ApiServices>((ref) => ApiServices());
+final apiProvider = Provider<ApiServices>((ref) => ApiServices());
